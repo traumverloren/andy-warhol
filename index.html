@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Andy Warhol.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=VT323|Monofett' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.rawgit.com/alvarotrigo/pagePiling.js/master/jquery.pagepiling.css" rel="stylesheet" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.pagepiling/1.5.1/jquery.pagepiling.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+          $('#pagepiling').pagepiling();
+      });
+    </script>
+
+    <style>
+      .section {
+        background-size: cover;
+      }
+
+      #section1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://www.phaidon.com/resource/f45-b-w.jpg");
+      }
+
+      .title {
+        font-family: 'Monofett', cursive;
+        font-size: 40px;
+        position: fixed;
+        bottom: 10px;
+        margin-left: 0px;
+        width: 95%;
+        color: #1abc9c;
+      }
+
+      p {
+        font-size: 30px;
+        color: #B6B6B6;
+        width: 90%;
+        font-family: vt323;
+      }
+
+      #section2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://i66.tinypic.com/2r2ta9e.jpg");
+      }
+
+      #section3 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://i63.tinypic.com/miumb.jpg");
+      }
+
+      #section4 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://ppcorn.com/us/wp-content/uploads/sites/14/2014/09/Elvis-Warhol-Auction-News.jpg");
+      }
+
+      #section5 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url("http://blog.frankiefoto.com/wp-content/uploads/2014/01/WARHOL-SX70.jpg");
+      }
+
+      #section5 p {
+        font-family: 'vt323', cursive;
+        font-size: 25px;
+        position: fixed;
+        bottom: 10px;
+        margin-left: 0px;
+        width: 95%;
+        color: #B6B6B6;
+      }
+
+      @media (min-width: 768px) {
+        .title {
+          font-family: 'Monofett', cursive;
+          font-size: 80px;
+        }
+      }
+
+      #pp-nav li .active span, .pp-slidesNav .active span {
+        background: #bbb;
+      }
+
+      #pp-nav span, .pp-slidesNav span {
+        border-color: #bbb !important;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="pagepiling">
+      <div class="section" id="section1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <h2 class="title">Andy Warhol.</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="section2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-md-offset-3">
+              <p class="text-right">They always say time changes things, but you actually have to change them yourself.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="section3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-md-offset-3">
+              <p class="text-right">Sometimes people let the same problem make them miserable for years when they could just say, So what. That's one of my favorite things to say.</p>
+              <p class="text-right">So what.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="section4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9 col-md-offset-3">
+              <p class="text-right">People should fall in love with their eyes closed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" id="section5">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <p>Learn more about <a href="https://en.wikipedia.org/wiki/Andy_Warhol">Andy</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
